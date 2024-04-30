@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandy Porfotolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="containerNavbar">
+      <div class="flex justify-between p5vw">
+        <div class="center-center">
+          <img src="./assets/WhatsApp Image 2024-04-06 at 22.29.14_2925732a.jpg" class="gambarLogo"></img>
+        </div>
+        <ul class="ulNavbar">
+          <li class="liNavbar">
+            <a href="#" class="aNavbar">Home</a>
+          </li>
+          <li class="liNavbar">
+            <a href="about.html" class="aNavbar">About</a>
+          </li>
+          <li class="liNavbar" id="hoverDiv1">
+            <p class="aNavbar" onmouseenter="munculD(1)" onclick="clikMuncul(1)">Hoby &#9662;</p>
+            <ul class="dropdown-content" id="dcon1" >
+              <li><a href="/buku.html" class="aDropdown" onmouseenter="janganBerubah(1)" onmouseleave="abisBerubah(1)" id="drop1" >Reading</a></li>
+              <li><a href="/billiard.html" class="aDropdown" onmouseenter="janganBerubah(2)" onmouseleave="abisBerubah(2)" id="drop2" >Billiard</a></li>
+              <li><a href="/coding.html" class="aDropdown" onmouseenter="janganBerubah(3)" onmouseleave="abisBerubah(3)" id="drop3" >Coding</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="center1">
+          <li class="liNavbar" id="hoverDiv2">
+            <p class="aNavbar" onmouseenter="munculD(2)" onclick="clikMuncul(2)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal">
+              <circle cx="12" cy="12" r="1"></circle>
+              <circle cx="19" cy="12" r="1"></circle>
+              <circle cx="5" cy="12" r="1"></circle>
+            </svg></p>
+            <ul class="dropdown-content" id="dcon2" >
+              <li><a href="/" class="aDropdown" onmouseenter="janganBerubah(4)" onmouseleave="abisBerubah(4)" id="drop4" >Home</a></li>
+              <li><a href="/about.html" class="aDropdown" onmouseenter="janganBerubah(5)" onmouseleave="abisBerubah(5)" id="drop5" >About</a></li>
+              <li><a href="/buku.html" class="aDropdown" onmouseenter="janganBerubah(6)" onmouseleave="abisBerubah(6)" id="drop6" >Hoby</a></li>
+            </ul>
+          </li>
+        </div>
+        
+      </div>
+    </div>
+    <!--Navbar End-->
+
+    <!--Main Content-->
+    <div class="containerMain">
+      <div class="flex-center">
+        <div class="card casl">
+          <img src="./assets/WhatsApp Image 2024-04-06 at 22.29.14_fe339d74.jpg" class="foto"></img>
+          <div class="card-kecil">
+            <div class="flex justify-center">
+              Data Diri
+            </div>
+            <div class="flex gap justify-between fw-kecil">
+              <p class="no-wrap">Nama Lengkap</p>
+              <p class="no-wrap">Kurnia Arisandy Zakaria</p>
+            </div>
+            <div class="flex gap justify-between fw-kecil">
+              <p class="no-wrap">Nama Panggilan</p>
+              <p class="no-wrap">Sandy</p>
+            </div>
+            <div class="flex gap justify-between fw-kecil">
+              <p class="no-wrap">Tanggal Lahir</p>
+              <p class="no-wrap">01 Juni 2003</p>
+            </div>
+            <div class="flex gap justify-between fw-kecil">
+              <p class="no-wrap">Agama</p>
+              <p class="no-wrap">Islam</p>
+            </div>
+            <div class="flex gap justify-between fw-kecil">
+              <p class="no-wrap">Kewarganegaraan</p>
+              <p class="no-wrap">Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex-center m-10">
+          <div class="setion">
+            Perkenalkan nama saya Kurnia Arisandy Zakaria. <br><br>Web ini saya buat dengan menggunakan HTML dan CSS, Kita bisa anggap html adalah sebuah seseorang biasa dan CSS adalah Style nya atau Gaya nya seperti pakaian nya yang bagus ada warna yang trend cerah dan lain lain. Itulah perkenalan dari saya terimakasih
+          </div>
+        </div>
+        <div class="p5vw flex justify-between w-full">
+          <img src="./assets/WhatsApp Image 2024-04-07 at 01.23.39_176b0a33.jpg" class="card3">
+            
+          </img>
+          <img src="./assets/WhatsApp Image 2024-04-07 at 01.23.40_520edcd3.jpg" class="card3">
+  
+          </img>
+          <img src="/assets/WhatsApp Image 2024-04-07 at 01.23.40_8ff1f0af.jpg" class="card3">
+  
+          </img>
+        </div>
+        <div class="p5vw flex justify-between w-full">
+          <a href="whatsapp:contact=+6285731497857@s.whatsapp.com&message='Hai Aku Sandy'" class="text-card3">
+            Whatsapp
+          </a>
+          <a href="instagram://user?username=_arsandyy" class="text-card3">
+          Instagram
+        </a>
+        <a href="@('https://www.tiktok.com/@SanchaDv?lang=en/')" class="text-card3">
+            Tiktok
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <!--Main Content End-->
+
+    <!--Footer-->
+    <div class="containerFooter">
+      <h4>Copyright @ 2024 Sandi</h4>
+    </div>
+    <!--Footer End-->
+
+    <script src="script.js">
+
+
+    </script>
+  </body>
+</html>

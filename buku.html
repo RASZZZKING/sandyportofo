@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandy Porfotolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<!--Navbar-->
+<div class="containerNavbar">
+  <div class="flex justify-between p5vw">
+    <div class="center-center">
+      <img src="./assets/WhatsApp Image 2024-04-06 at 22.29.14_2925732a.jpg" class="gambarLogo"></img>
+    </div>
+    <ul class="ulNavbar">
+      <li class="liNavbar">
+        <a href="#" class="aNavbar">Home</a>
+      </li>
+      <li class="liNavbar">
+        <a href="about.html" class="aNavbar">About</a>
+      </li>
+      <li class="liNavbar" id="hoverDiv1">
+        <p class="aNavbar" onmouseenter="munculD(1)" onclick="clikMuncul(1)">Hoby &#9662;</p>
+        <ul class="dropdown-content" id="dcon1" >
+          <li><a href="/buku.html" class="aDropdown" onmouseenter="janganBerubah(1)" onmouseleave="abisBerubah(1)" id="drop1" >Reading</a></li>
+          <li><a href="/billiard.html" class="aDropdown" onmouseenter="janganBerubah(2)" onmouseleave="abisBerubah(2)" id="drop2" >Billiard</a></li>
+          <li><a href="/coding.html" class="aDropdown" onmouseenter="janganBerubah(3)" onmouseleave="abisBerubah(3)" id="drop3" >Coding</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="center1">
+      <li class="liNavbar" id="hoverDiv2">
+        <p class="aNavbar" onmouseenter="munculD(2)" onclick="clikMuncul(2)"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal">
+          <circle cx="12" cy="12" r="1"></circle>
+          <circle cx="19" cy="12" r="1"></circle>
+          <circle cx="5" cy="12" r="1"></circle>
+        </svg></p>
+        <ul class="dropdown-content" id="dcon2" >
+          <li><a href="/" class="aDropdown" onmouseenter="janganBerubah(4)" onmouseleave="abisBerubah(4)" id="drop4" >Home</a></li>
+          <li><a href="/about.html" class="aDropdown" onmouseenter="janganBerubah(5)" onmouseleave="abisBerubah(5)" id="drop5" >About</a></li>
+          <li><a href="/buku.html" class="aDropdown" onmouseenter="janganBerubah(6)" onmouseleave="abisBerubah(6)" id="drop6" >Hoby</a></li>
+        </ul>
+      </li>
+    </div>
+    
+  </div>
+</div>
+<!--Navbar End-->
+    <!--Main Content-->
+    <div class="containerMain">
+      <div class="flex-center">
+        <img src="./assets/WhatsApp Image 2024-04-07 at 01.35.05_d03e8fce.jpg" class="card casl">
+        </img>
+      </div>
+      <div>
+          <div class="flex-center m-10">
+            <div class="setion">
+              Buku. Buku merupakan sebuah kumpulan tulisan yang dikarang atau dibuat oleh seseorang. Buku bagi saya sangatlah penting karena saya bisa banyak sekali mengambil banyak keuntungan dari nya, bisa dari pengalaman orang lain, bisa juga seperti cara berfikirnya. Dan saya sangat sangat suka cara berfikir para penulis buku yang sangat bermanfaat bagi saya. Jadi bacalah buku supaya kaya akan pengetahuan.
+            </div>
+          </div>
+          <div class="p5vw flex justify-between w-full">
+            <img src="./assets/WhatsApp Image 2024-04-07 at 01.35.05_d03e8fce.jpg" class="card3">
+              
+            </img>
+            <img src="./assets/WhatsApp Image 2024-04-07 at 01.35.05_b76e0d32.jpg" class="card3">
+    
+            </img>
+            <img src="./assets/WhatsApp Image 2024-04-07 at 01.35.06_ef23963d.jpg" class="card3">
+    
+            </img>
+          </div>
+          <div class="p5vw flex justify-between w-full">
+            <a href="./buku.html" class="text-card3">
+              Membaca Buku
+            </a>
+            <a href="./billiard.html" class="text-card3">
+              Billiard
+            </a>
+            <a href="./coding.html" class="text-card3">
+              Coding
+            </a>
+          </div>
+
+      </div>
+
+    </div>
+    <!--Main Content End-->
+
+    <!--Footer-->
+    <div class="containerFooter">
+      <h4>Copyright @ 2024 Sandi</h4>
+    </div>
+    <!--Footer End-->
+    <script src="script.js">
+
+
+    </script>
+  </body>
+</html>
