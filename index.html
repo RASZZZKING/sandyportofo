@@ -5,8 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sandy Porfotolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
   </head>
   <body>
+    <div class="box-center" id="box-cen">
+      <div class="box-login" id="loginPage">
+          <h2 class="text-center">Login</h2>
+          <ul type="none">
+              <li class="label-input">
+                  <input type="text" class="input-text" placeholder="Username" id="logUs">
+              </li>
+              <li class="label-input">
+                  <input type="password" class="input-text" placeholder="Password" id="logPw">
+              </li>
+          </ul>
+          <div class="box-button">
+              <div onclick="toRegis()" class="btn">
+                  Register
+              </div>
+              <button onclick="login()" class="btn">
+                  Login
+              </button>
+          </div>
+      </div>
+      <div class="box-login" id="regPage">
+          <h2 class="text-center">Register</h2>
+          <ul type="none">
+            <li class="label-input">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="isi username"
+                required
+                id="isiUser"
+              />
+            </li>
+            <li class="label-input">
+              <input
+                type="password"
+                class="input-text"
+                placeholder="isi password"
+                required
+                id="isiPW"
+              />
+            </li>
+            <li class="label-input">
+              <input
+                type="password"
+                class="input-text"
+                placeholder="ulangi password"
+                required
+                id="isiPW2"
+              />
+            </li>
+            <li class="">
+              <input type="radio" checked name="jenisKelamin" id="laki" value="laki" />
+              <label for="laki">laki</label>
+              <input
+                type="radio"
+                name="jenisKelamin"
+                id="perempuan"
+                value="perempuan"
+              />
+              <label for="laki">perempuan</label>
+            </li>
+          </ul>
+          <div class="box-button">
+            <div onclick="resLog()" class="btn">Login</div>
+            <div class="btn" onclick="reg()">Register</div>
+          </div>
+        </div>
+  </div>
     <!--Navbar-->
     <div class="containerNavbar">
       <div class="flex justify-between p5vw">
@@ -115,7 +184,7 @@
 
     <!--Footer-->
     <div class="containerFooter">
-      <h4>Copyright @ 2024 Sandi</h4>
+      <h4>Copyright @ 2024 Sandy</h4>
     </div>
     <!--Footer End-->
 
@@ -123,5 +192,7 @@
 
 
     </script>
+  <script src="login.js"></script>
+
   </body>
 </html>
